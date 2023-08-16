@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type Props = {};
 
@@ -44,7 +45,7 @@ function Hero({}: Props) {
           NextGen is a powerful no-code platform that lets you build apps for web and mobile. No coding knowledge required.
         </p>
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <a
+          <Link
             href="/joinWaitlist"
             className="inline-flex justify-center items-center py-3 px-5 text-[14px] font-semibold text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 "
           >
@@ -61,7 +62,7 @@ function Hero({}: Props) {
                 clipRule="evenodd"
               ></path>
             </svg>
-          </a>
+          </Link>
           <a
             href="#hero"
             className="inline-flex text-[14px] font-semibold text-primaryText justify-center items-center py-3 px-5 text-center rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 "

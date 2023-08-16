@@ -36,7 +36,7 @@ function SocialProof({}: Props) {
         className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6"
       >
         <h2 className="text-3xl md:text-4xl font-extrabold leading-9 tracking-tight text-white sm:leading-10 mb-16">
-          We are the world's leading software development platform. <br />
+          We are the world&apos;s leading software development platform. <br />
           Numbers says it all.
         </h2>
         <dl className="grid max-w-screen-md gap-8 mx-auto  sm:grid-cols-3 text-white">
