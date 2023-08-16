@@ -1,27 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  @layer font-inter;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+/* 
+text-color: rgb(17,24,39)
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+header-font: Inter normal 600 14px #111827
+hero-heading-font: Inter normal 700 60px #111827
+hero-text: Inter normal 400 18px #4b5563
+
+section-heading: Inter normal 700 36px #ffffff
+section-card-heading: Inter normal 600 16px #ffffff
+section-card-text: Inter normal 400 16px #ffffff
+
+footer-heading: Inter normal 400 14px #111827
+footer-text: Inter normal 400 12px #6b7280 */
