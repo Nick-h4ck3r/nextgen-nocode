@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import AccordionItem from "../components/AccordionItem";
-import { faqData } from "./faqData";
+import { faqData } from "../public/faqData";
 
 const FAQPage: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
