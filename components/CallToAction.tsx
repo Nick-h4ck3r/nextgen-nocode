@@ -60,7 +60,7 @@ function CallToAction({}: Props) {
 
         <div className="mt-8 md:mt-0">
           <h2 className="mb-4 text-4xl md:text-5xl font-bold tracking-tight leading-none text-primaryText">
-            Let's create more tools and ideas that brings us together.
+            Let&apos;s create more tools and ideas that brings us together.
           </h2>
           <p className="mb-6 text-lg font-normal text-secondaryText">
             NextGen is a no-code platform that allows you to create and share
