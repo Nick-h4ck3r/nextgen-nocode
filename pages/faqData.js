@@ -21,7 +21,7 @@ export const faqData = [
   {
     question: "Can I use NextGen for my business?",
     answer:
-      "Yes, you can use NextGen for your business. You can build web applications for your business and deploy them on NextGen.",
+      "Yes, you can use NextGen for your business. You can build web applications for your business and deploy them on NextGen itself.",
   },
   {
     question: "Why should I choose NextGen over other nocode platforms?",
