@@ -26,7 +26,7 @@ function EmailWaitlist({}: Props) {
 
     try {
       console.log("try block");
-      await axios.post("https://codedoctor-api.onrender.com/joinwaitlist", {
+      await axios.post("https://codedoctor-api.vercel.app/joinwaitlist", {
         email,
       });
       showSuccessToastMessage();
