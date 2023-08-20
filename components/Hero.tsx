@@ -19,7 +19,7 @@ function Hero({}: Props) {
           className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100/30 border rounded-full"
           role="alert"
         >
-          <span className="text-xs md:text-xs bg-[#468C92] font-medium rounded-full text-white px-4 py-1.5 mr-3">
+          <span className="text-xs md:text-xs bg-primary-600 font-medium rounded-full text-white px-4 py-1.5 mr-3">
             New
           </span>{" "}
           <span className="text-xs md:text-sm font-normal text-secondaryText">
@@ -42,12 +42,11 @@ function Hero({}: Props) {
           Build apps like never before
         </h1>
         <p className="mb-8 text-lg font-normal text-secondaryText sm:px-16 xl:px-48 ">
-          NextGen is a powerful no-code platform that lets you build apps for
-          web and mobile. No coding knowledge required.
+          NextGen is a powerful no-code platform that lets you build apps for web and mobile. No coding knowledge required.
         </p>
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <Link
-            href=""
+            href="/joinWaitlist"
             className="inline-flex justify-center items-center py-3 px-5 text-[14px] font-semibold text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 "
           >
             Join the waitlist
